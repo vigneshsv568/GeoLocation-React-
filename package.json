@@ -1,0 +1,24 @@
+{
+  "name": "RNBGExample",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.50.0",
+    "react-test-renderer": "16.6.1"
+  },
+  "dependencies": {
+    "@mauron85/react-native-background-geolocation": "^0.6.1",
+    "native-base": "^2.13.5",
+    "prop-types": "^15.5.10",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-maps": "^0.25.0",
+    "react-native-vector-icons": "^6.1.0",
+    "react-navigation": "^1.0.0-beta.15"
+  }
+}
