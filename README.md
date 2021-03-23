@@ -4,8 +4,6 @@
 
 # Intro
 
-This is an example app of [@mauron85/react-native-background-geolocation](https://www.npmjs.com/package/@mauron85/react-native-background-geolocation) component.
-
 # How to build
 
 In cloned directory:
@@ -64,11 +62,6 @@ ext {
 }
 ```
 
-More info https://github.com/react-community/react-native-maps/blob/v0.20.1/docs/installation.md
-
-As version 0.20.1 of react-native-maps there is another [issue](https://github.com/react-community/react-native-maps/issues/1408),
-which was resolved by updating following lines in `app/build.gradle`:
-
 ```
 compile(project(':react-native-maps')) {
     exclude group: 'com.google.android.gms', module: 'play-services-base'
@@ -78,8 +71,6 @@ compile "com.google.android.gms:play-services-base:11+"
 compile 'com.google.android.gms:play-services-location:11+'
 compile 'com.google.android.gms:play-services-maps:11+'
 ```
-
-React-native-maps version 0.21 is not [supported yet](https://github.com/mauron85/react-native-background-geolocation/issues/176).
 
 # Troubleshoot
 
@@ -97,5 +88,3 @@ E/Google Maps Android API(31792): 	Android Application (<cert_fingerprint>;<pack
 ```
 
 # Mocking Locations & Test Server
-
-Follow instruction in [background-geolocation-server](https://github.com/mauron85/background-geolocation-server) project.
